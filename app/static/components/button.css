@@ -39,3 +39,22 @@
   background: linear-gradient(#147EFF, #0F67DA);
   color: white;
 }
+
+.btn-white {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  border: 1px solid #FFFFFF;
+}
+
+.btn-white:hover {
+  background-color: #0F60C4;
+  color: white;
+  border: 1px solid #0F60C4;
+  transition: background 0.3s ease;
+}
+
+
+

@@ -1,1 +1,64 @@
 @import "components/index.css";
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-title{
+  text-align: center;
+  margin: 50px auto 10px auto;
+}
+
+.about-content{
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+}
+
+/*.about-content p{
+  margin-top: 25px;
+  padding: 0px 25%;
+}*/
+
+.separator{
+  border-top: 2px solid #1B1564;
+  width: 50px;
+  margin: 20px auto 30px auto;
+}
+
+.name{
+  margin-top: 20px;
+}
+
+.about-icons{
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-icons a{
+  color: #E2E2E2;
+}
+
+.about-icons a:hover{
+  text-align: center;
+  font-size: 30px;
+  color: #1B1564;
+}
+
+@media (max-width: 768px) {
+   .about-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 380px) {
+   #cta-navbar {
+    display: none !important;
+  }
+  .navbar-lewagon{
+    justify-content: space-around !important;
+  }
+}
+
+

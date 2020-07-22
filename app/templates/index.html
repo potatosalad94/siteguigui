@@ -1,7 +1,43 @@
 {% extends 'base.html' %}
 
 {% block app_content %}
-  <h1>Hi, Remi!</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url({{ url_for('static', filename='assets/images/supermarket2.jpg') }});">
+  <div class="container">
+    <h1>Antares International</h1>
+    <p>Your retail consulting partner, to never worry again</p>
+    <a class="btn btn-white" href="#">Contact us</a>
+  </div>
+</div>
 
-  <div><p>this is a test</p></div>
+<div class="container">
+  <div class="about-title">
+    <h3>About Antares International</h3>
+  </div>
+  <hr class="separator">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="about-content">
+        <img src="{{ url_for('static', filename='assets/images/guillaume.png') }}" class="avatar-large" alt="">
+        <h4 class="name">Guillaume Simon</h4>
+        <p>Antares International is a U.A.E based company managed by <strong>Guillaume Simon</strong>.
+        With 6 years experience as GCC sales area manager for a French Consolidator, he has established his own company in summer 2019</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="about-icons">
+        <a href=""><i class="fas fa-phone-alt"></i></a>
+        <a href=""><i class="far fa-envelope"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
 {% endblock %}
